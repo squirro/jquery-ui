@@ -30,7 +30,7 @@
 }( function( $ ) {
 
 var mouseHandled = false;
-$( document ).on( "mouseup", function() {
+(config.$squirroBody || $('.squirro-body')).on( "mouseup", function() {
 	mouseHandled = false;
 } );
 
